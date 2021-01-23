@@ -4,6 +4,7 @@ include('Php/Validacion.php'); // Includes Login Script
 header("location: Php/Pagina Inicio.php");
 }
 ?>
+<!--Holis -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
