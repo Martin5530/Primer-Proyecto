@@ -1,0 +1,91 @@
+body{
+    padding:20px;
+    margin:20px 60px;
+    font-family:Arial;
+    font-size: 12px;
+    background-color:silver;
+}
+
+.contenedorglobal{
+    width: 95%;
+    height: 780px;
+    background-color: white;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+}
+
+.encabezado
+{
+    width: 95%;
+    height: 75px;
+    background-color: #848484;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+    color: #0000FF;
+    text-align:center;
+}
+
+
+.contenedorinterno{
+    width: 95%;
+    height: 650px;
+    background-color: white;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+}
+
+.izquierdo{
+    width: 20%;
+    height: 500px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    float: left;
+    border:2px inset purple;
+    text-align:center;
+    cursor: crosshair;
+}
+
+.central{
+    width: 57%;
+    height: 500px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    float: left;
+    border:4px inset purple;
+    text-align:center;
+    color:#298A08;
+}
+
+
+h2{
+    color:#FF0000;
+}
+
+
+.piepagina{
+    width: 80%;
+    height: 75px;
+    background-color: #000000;
+    margin: 10px 10px 10px 10px ;
+    border-color: black;
+    border:2px;
+    border:2px inset purple;
+    font-family:Arial;
+    font-size: 10px;
+    color:#FFFFFF;
+    text-align:center;
+    float: left;
+}
+
+.derecho
+{
+    width: 15%;
+    height: 600px;
+    background-color: D0FA58;
+    margin: 10px 10px 10px 10px ;
+    border:2px inset purple;
+    text-align:top;
+    position: relative;
+    left:890px;
+    top:4px;
+}

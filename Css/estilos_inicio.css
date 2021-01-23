@@ -1,0 +1,102 @@
+html,body{height: 100%;
+width: 100%;}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    width: 99.8%;
+    height: 84.5%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    min-width: 99.8%;
+}
+.menu{
+    display: inline-block;
+    width: 0%;
+    height:100%;
+    border: 1px solid;
+    border-top: none;
+     background: #314BD1;
+  padding: 20px 0px; 
+    transition: all 300ms;
+    overflow: auto;
+}
+#chee{
+display: none;
+}
+#chee:checked ~ .menu{
+     width: 20%;
+}
+#chee:checked ~ .contenido{
+     width: 79.8%;
+}
+
+.txtMenu{
+    cursor: pointer;
+    position: fixed;
+    top:16%;
+    right: 2%;
+    z-index: 1;
+}
+.contenido{
+    position: absolute;
+    background: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.body .menu h2{
+  font-size: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.body .menu ul li{
+  padding: 10px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+} 
+.body .menu ul li a{
+  color: #fff;
+  display: block;
+    text-decoration: none;
+}
+
+.body .menu ul li a .fas{
+  width: 25px;
+}
+
+.body .menu ul li:hover{
+  background-color: #320dD1;
+}
+    
+.body .menu ul li:hover a{
+  color: #fafafa;
+}
+ 
+.body .menu .social_media{
+  position: fixed;
+  bottom: 5px;
+  left: 10%;
+  transform: translateX(-50%);
+  display: flex;
+    visibility: hidden;
+}
+.body .menu .social_media a{
+  display: block;
+  width: 40px;
+  background: #314BD1;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
